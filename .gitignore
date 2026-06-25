@@ -15,3 +15,9 @@ export_credentials.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# Godot 4.3+ UID files
+*.uid
+
+# IDE settings
+.idea/
