@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://4q3gwsj6hp7"]
+
+[ext_resource type="Script" uid="uid://txeqmdcsbg5" path="res://Scripts/Combat/CombatGameMode.gd" id="2_gamemode"]
+[ext_resource type="Resource" uid="uid://b20nitjva50y5" path="res://Data/Scenarios/Test/TestScenario_CombatData.tres" id="2_mim2h"]
+[ext_resource type="Script" uid="uid://c27yknk1p6a7q" path="res://Scripts/Combat/PlayerController_Combat.gd" id="3_controller"]
+[ext_resource type="Resource" uid="uid://nuei214jqxs7" path="res://Data/Scenarios/Test/Deck/TestScenario_Deck.tres" id="3_mim2h"]
+
+[node name="CombatMap" type="Node2D" unique_id=1074254427]
+
+[node name="CombatGameMode" type="Node" parent="." unique_id=143672811]
+script = ExtResource("2_gamemode")
+combat_data = ExtResource("2_mim2h")
+player_deck = ExtResource("3_mim2h")
+
+[node name="PlayerController_Combat" type="Node2D" parent="CombatGameMode" unique_id=442190041]
+script = ExtResource("3_controller")
+camera_acceleration = 3000.0
+camera_friction = 3000.0
+camera_border_zone = 400.0
+
+[node name="World" type="Node2D" parent="." unique_id=615510802]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=807861849]
+position = Vector2(186, -267)

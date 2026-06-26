@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="DeckData" format=3 uid="uid://nuei214jqxs7"]
+
+[ext_resource type="Resource" uid="uid://l4jh0nwo1i5n" path="res://Data/Scenarios/Test/Deck/TestScenario_DeckEntry_Soldier.tres" id="1_ftc0b"]
+[ext_resource type="Script" uid="uid://bjjvrgrake3rn" path="res://Scripts/Data/DeckData.gd" id="2_le6e4"]
+
+[resource]
+script = ExtResource("2_le6e4")
+entries = Array[Resource]([ExtResource("1_ftc0b")])
+metadata/_custom_type_script = "uid://bjjvrgrake3rn"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CombatData" format=3 uid="uid://b20nitjva50y5"]
+
+[ext_resource type="Resource" uid="uid://nuei214jqxs7" path="res://Data/Scenarios/Test/Deck/TestScenario_Deck.tres" id="1_gedrq"]
+[ext_resource type="Resource" uid="uid://dq0k65cxa7pf4" path="res://Data/Scenarios/Test/TestScenario_MapData.tres" id="2_bbaak"]
+[ext_resource type="Script" uid="uid://ict2h0poviv4" path="res://Scripts/Data/CombatData.gd" id="3_ifjlr"]
+
+[resource]
+script = ExtResource("3_ifjlr")
+map_data = ExtResource("2_bbaak")
+enemy_deck = ExtResource("1_gedrq")
+metadata/_custom_type_script = "uid://ict2h0poviv4"

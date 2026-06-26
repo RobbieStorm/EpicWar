@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://pawn001"]
+
+[ext_resource type="Script" uid="uid://b6f5tohnhfrk8" path="res://Scripts/Pawns/Pawn.gd" id="1_pawn"]
+[ext_resource type="Texture2D" uid="uid://ngy3wacxknn1" path="res://Art/Warrior_Idle.png" id="2_sprite"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pawn"]
+size = Vector2(100, 100)
+
+[node name="Pawn" type="CharacterBody2D" unique_id=752953554 groups=["Pawns"]]
+script = ExtResource("1_pawn")
+y_offset_range = 15.0
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1900021040]
+scale = Vector2(1.294, 1.294)
+texture = ExtResource("2_sprite")
+offset = Vector2(-5.315, -36.44)
+hframes = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1114475602]
+position = Vector2(0, -50)
+shape = SubResource("RectangleShape2D_pawn")

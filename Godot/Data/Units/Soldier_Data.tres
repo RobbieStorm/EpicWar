@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="UnitData" format=3 uid="uid://b8m7et8hvnu1k"]
+
+[ext_resource type="PackedScene" uid="uid://cigrv14uoeoe4" path="res://Data/Units/Soldier_Pawn.tscn" id="1_cs31o"]
+[ext_resource type="Script" uid="uid://e2lh04d8gdf5" path="res://Scripts/Data/UnitData.gd" id="2_ffkl0"]
+
+[resource]
+script = ExtResource("2_ffkl0")
+display_name = "Soldier"
+scene = ExtResource("1_cs31o")

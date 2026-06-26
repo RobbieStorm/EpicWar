@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="DeckEntry" format=3 uid="uid://l4jh0nwo1i5n"]
+
+[ext_resource type="Script" uid="uid://bltuepa0ymo8w" path="res://Scripts/Data/DeckEntry.gd" id="1_bi3vb"]
+[ext_resource type="Resource" uid="uid://b8m7et8hvnu1k" path="res://Data/Units/Soldier_Data.tres" id="2_lp5sf"]
+
+[resource]
+script = ExtResource("1_bi3vb")
+unit_data = ExtResource("2_lp5sf")
+metadata/_custom_type_script = "uid://bltuepa0ymo8w"

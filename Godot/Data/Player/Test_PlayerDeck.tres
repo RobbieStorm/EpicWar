@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="DeckData" format=3 uid="uid://b24yqma8t4qex"]
+
+[ext_resource type="Script" uid="uid://bjjvrgrake3rn" path="res://Scripts/Data/DeckData.gd" id="1_g60nr"]
+
+[resource]
+script = ExtResource("1_g60nr")
+metadata/_custom_type_script = "uid://bjjvrgrake3rn"
